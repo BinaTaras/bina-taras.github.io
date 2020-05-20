@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hello, world!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <style>
+      .logo {
+       margin-top: -2%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+         <h1>Psyboarg.org  </h1>
+      </header>
+  
+
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+  </nav>
+    
+<main>
+  <p>Thanks for visting <br>
+  Contact Information:</p>
+
+<!-- <form action="https://formspree.io/mzbpreaq" method="POST">
+  <label for="fname">First Name:</label>
+  <input type="text" name="fname" id="fname">
+
+  <label for="lname">Last Name:</label>
+  <input type="text" name="lname" id="lname">
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email">
+
+  <label for="tel">Telephone:</label>
+  <input type="tel" name="tel" id="tel"> <br><br> -->
+
+  <!-- <label for="date">Date of Birth:</label>
+  <input for="date" name="date" id="date"> -->
+
+  <!-- <label for="checkbox">Check which products you are interested in:</label>
+  <input name="work" type="checkbox" value="content managment system">content managment system <br>
+  <input name="work" type="checkbox" value="shopping cart/online ordering system">shopping cart/online ordering system <br>
+  <input name="work" type="checkbox" value="html & css email template">html & css email template <br>
+  <input name="work" type="checkbox" value="custom graphics">custom graphics <br>
+  <input name="work" type="checkbox" value="90 days maintenance">90 days maintenance <br>
+  <input name="work" type="checkbox" value="business card design">business card design <br>
+  <input name="work" type="checkbox" value="social media integration">social media integration <br>
+  <input name="work" type="checkbox" value="email newsletter">email newsletter <br> -->
+
+
+
+<!-- <br>
+<textarea name="feedback" rows="3" cols="100">Questions or Comments?</textarea>
+
+<br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+
+</form> -->
+
+
+
+<!-- PHP FORM -->
+
+<form name="contactform" method="post" action="php_email.php">
+  <table width="500px">
+  <tr>
+   <td valign="top">
+    <label for="first_name">First Name *</label>
+   </td>
+
+   <td valign="top">
+    <input  type="text" name="first_name" maxlength="50" size="30">
+   </td>
+
+  </tr>
+
+  <tr>
+   <td valign="top">
+    <label for="last_name">Last Name *</label>
+   </td>
+
+   <td valign="top">
+    <input  type="text" name="last_name" maxlength="50" size="30">
+   </td>
+
+  </tr>
+
+  <tr>
+   <td valign="top">
+    <label for="email">Email Address *</label>
+   </td>
+
+   <td valign="top">
+    <input  type="text" name="email" maxlength="80" size="30">
+   </td>
+
+  </tr>
+
+  <tr>
+   <td valign="top">
+    <label for="telephone">Telephone Number</label>
+   </td>
+
+   <td valign="top">
+    <input  type="text" name="telephone" maxlength="30" size="30">
+   </td>
+
+  </tr>
+  <tr>
+   <td valign="top">
+
+    
+
+    <label for="comments">Comments *</label>
+   </td>
+
+   <td valign="top">
+    <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+   </td>
+   
+  </tr>
+  <tr>
+   <td colspan="2" style="text-align:center">
+    <input type="submit" value="Submit">  
+   </td>
+  </tr>
+  </table>
+  </form>
+
+</main>
+<footer>
+  <p>Albina Tarasovskaya <br>
+    PTC Schoolyear 2019-2020
+    &copy; Copyright 2019
+    <br><br>
+    <img src="images/doubleboar.svg" alt="logo" class="logo">
+  </p>
+
+  
+  <div class="li">
+    <a href="https://www.linkedin.com/in/albina-tarasovskaya-17721b188/"><img src="images/li.png" alt="linked in"></a>
+  </div>
+    
+  
+ <br>
+</footer>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

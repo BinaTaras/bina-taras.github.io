@@ -1,0 +1,512 @@
+/* business website by Bina */
+
+img {
+    width:100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    width: 90%;
+    padding:1em;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+table th {
+    text-align:center;
+    background-color:#ffffff;
+    color:#ff5566;
+}
+
+table tr {
+    text-align:left;
+    border:solid #ffffff;
+
+}
+
+table td {
+    border: solid #ffffff;
+    text-align:center;
+    padding:.5em;
+}
+
+table {
+    background-color:rgba(255,85,102,.75);
+    width:90%;
+    margin:1em auto 1em auto;
+    border:solid #ffffff;
+}
+
+.port-container {
+    background-color:rgba(255,85,102,.75);
+
+}
+
+form {
+    background-color:rgba(255,85,102,.75);
+    width:85%;
+    margin: 1em auto .5em auto;
+    display:block;
+    padding:1em;
+    text-align:left;
+    overflow:auto;
+    
+}
+
+form label {
+    display:block;
+}
+
+
+.li {
+    width:6vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top:-1em;
+    margin-bottom:-5em; */
+   
+}
+
+footer {
+    height:30vw;
+}
+
+/* mobile and tablet viewport */
+
+@media screen and (max-width:768px) {
+
+
+body {
+    background-color:#000000;
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.navbar {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+
+}
+
+.projects {
+    margin:.5em;
+    width:100%;
+}
+
+header {
+    display:inline-block;
+    margin: 1em 2em 0 2em;
+    
+}
+
+header h1 {
+    color:#ffffff;
+    text-align:center;
+    margin: .5em auto;
+    border:solid;
+    font-variant-caps: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    margin:1em auto;
+    margin-top:0;
+}
+
+.jumbotron {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    color:whitesmoke;
+}
+
+/* .logo {
+    width:50%;
+    background: rgb(255,85,102,.4);
+    
+   border:dotted #ffffff;
+   border-radius:10%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:.5em;
+    display:flex;
+    
+    
+} */
+
+.logo {
+    width:30%;
+    background-image: radial-gradient(gold 0, transparent 20% );
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    position: relative;
+    display:flex;
+    margin-bottom:.5em;
+    
+    
+    
+}
+
+img .logo {
+    display: inline;
+}
+
+main {
+    color:#ffffff;
+    text-align:center;
+    background-color: rgba(000, 457, 473, .3);
+    border:solid; 
+
+}
+
+
+
+.card {
+    width:40%;
+    color:#ff5566;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.certs {
+    background-color: rgba(000, 457, 473, .0);
+    border:solid #ffffff; 
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.certs p {
+    width:25%;
+    display:inline-block;
+    padding:1em;
+    color:#000000;
+    border:dotted #ffffff;
+}
+
+ .certs p img:hover{
+    background-color:rgba(000, 457, 473, .8);
+    border-radius:15%;
+    padding:.5em;
+    margin:0;
+}
+
+
+.port-container {
+    width:100%;
+    margin-left:.5em;
+    margin-right:.5em;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color:rgba(255,85,102,.75);
+    overflow:auto;
+}
+
+
+
+.box1, .box2, .box3 {
+    grid-column-gap: 5px;
+    border: solid #000000;
+    
+
+}
+
+.port-container, .box1, .box2, .box3 {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.projects ul li a {
+    color:#ffffff;
+}
+
+.projects ul li  {
+    list-style-type: none;
+    color:#ffffff;
+    text-align:right;
+    margin-right:.5em;
+    overflow:auto;
+}
+
+.projects p {
+    color: #000000;
+
+}
+
+.projects h5 {
+    background-color: rgba(000, 000, 000, .3);
+    padding:.5em;
+}
+
+footer {
+    margin:2em auto;
+    padding:2em;
+    border: dotted #000000;
+    background-color: rgba(000, 457, 473, .3);
+    min-height: fit-content;
+
+}
+
+footer p {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(000, 457, 473, .3);
+
+}
+}
+
+/* desktop view */
+@media screen and (min-width:769px) {
+
+    body {
+        background-color:#000000;
+        width:100%;
+        margin-right:auto;
+        margin-left:auto;
+    
+    }
+    
+    .navbar {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+    
+    }
+    
+    .projects {
+        margin:.5em;
+        width:100%;
+    }
+    
+    header {
+        display:block;
+        margin: 1em 2em 0 2em;
+        
+    }
+    
+    header h1 {
+        color:#ffffff;
+        text-align:center;
+        margin: .5em auto;
+        border:solid;
+        font-variant-caps: small-caps;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    nav {
+        margin:1em auto;
+        margin-top:0;
+    
+    }
+
+    
+    .nav-link {
+        margin-left:5em;
+    }
+
+    
+    .logo {
+            width:25%;
+            background-image: radial-gradient(gold 0, transparent 20% );
+            margin-left:auto;
+            margin-right:auto;
+            margin-top: 10%;
+            margin-bottom: 20%;
+            position: relative;
+            display:flex;
+            margin-bottom:.5em;
+        
+        
+        
+    }
+    
+    img .logo {
+        display: inline;
+    }
+    
+    main {
+        color:#ffffff;
+        text-align:center;
+        background-color: rgba(000, 457, 473, .3);
+        border:solid; 
+        width:100%;
+    
+    }
+
+    .jumbotron {
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        color:whitesmoke;
+        text-align: center;
+    }
+    
+    .lead {
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+    }
+ 
+
+  
+    
+    /* .card {
+        width:90%;
+        color:#ff5566;
+        margin-right:auto;
+        margin-left:auto;
+        font-size:2em;
+    
+    }
+
+    .card-title {
+        font-size:2em;
+    } */
+
+    .btn  {
+        font-size:1em;
+    }
+    
+    .certs {
+        background-color: rgba(000, 457, 473, .0);
+        background-color:rgba(255,85,102,.75);
+        border:solid #ffffff; 
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:2em;
+    }
+    
+    
+    
+    .certs p {
+        width:25%;
+        display:inline-block;
+        padding:1em;
+        color:#000000;
+        border:dotted #ffffff;
+    }
+    
+     .certs p img:hover{
+        background-color:rgba(000, 457, 473, .8);
+        border-radius:15%;
+        padding:.5em;
+        margin:0;
+    }
+    
+    
+    .port-container {
+        width:100%;
+        margin-left:.5em;
+        margin-right:.5em;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        background-color:rgba(255,85,102,.75);
+        overflow:auto;
+    }
+    
+/*Adds JS effect to open port-container with box1, box2, and box3 */
+
+    .projButton a:hover {
+        background-color: rgb(192, 192, 202);
+        color:#000000;
+        text-decoration: none;
+        width:30%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .projButton a {
+        text-decoration: none;
+        color:#ffffff;
+    }
+    
+    
+    .box1, .box2, .box3 {
+        grid-column-gap: 5px;
+        border: solid #000000;
+        
+    
+    }
+    
+    .port-container, .box1, .box2, .box3 {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        overflow:auto;
+    }
+    
+    .projects ul li a {
+        color:#ffffff;
+    }
+    
+    .projects ul li  {
+        list-style-type: none;
+        color:#ffffff;
+        text-align:right;
+        margin-right:.5em;
+        overflow:auto;
+    }
+    
+    .projects p {
+        color: #000000;
+    
+    }
+    
+    .projects h5 {
+        background-color: rgba(000, 000, 000, .3);
+        padding:.5em;
+    }
+    
+    footer {
+        width:95%;
+        height:40%;
+        margin: 2em auto 2em auto;
+        padding:2em;
+        border: solid #000000;
+        background-color: rgba(000, 457, 473, .3);
+
+        display:block;
+    }
+    
+    footer p {
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding:1em;
+        font-size:1.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        border:dotted #ff5566;
+    }
+
+
+footer .li {
+    display: flex;
+    float:right;
+    margin-top: -4%;
+    margin-bottom: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+}
